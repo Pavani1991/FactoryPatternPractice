@@ -10,14 +10,12 @@
 		EE50BCC91AE309590087045E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50BCC81AE309590087045E /* main.m */; };
 		EE50BCCC1AE309590087045E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50BCCB1AE309590087045E /* AppDelegate.m */; };
 		EE50BCD41AE309590087045E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE50BCD31AE309590087045E /* Images.xcassets */; };
-		EE50BCD71AE309590087045E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE50BCD51AE309590087045E /* LaunchScreen.xib */; };
 		EE50BCE31AE309590087045E /* FactoryPatternPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50BCE21AE309590087045E /* FactoryPatternPracticeTests.m */; };
 		EE50BD391AE31F490087045E /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50BD381AE31F490087045E /* ResultViewController.m */; };
 		EE50BD3F1AE323EB0087045E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50BD3E1AE323EB0087045E /* ViewController.m */; };
-		EE50BD7D1AE32C4D0087045E /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50BD7C1AE32C4D0087045E /* Rectangle.m */; };
 		EE50BD801AE32CA10087045E /* Traingle.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50BD7F1AE32CA10087045E /* Traingle.m */; };
 		EE50BD831AE32CDB0087045E /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50BD821AE32CDB0087045E /* Circle.m */; };
-		EE50BD8E1AE446720087045E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE50BD8C1AE446720087045E /* Main.storyboard */; };
+		EE50BE1E1AE74B4A0087045E /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50BE1D1AE74B4A0087045E /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +51,8 @@
 		EE50BD811AE32CDB0087045E /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
 		EE50BD821AE32CDB0087045E /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 		EE50BD8D1AE446720087045E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE50BE1C1AE74B4A0087045E /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		EE50BE1D1AE74B4A0087045E /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +94,8 @@
 		EE50BCC51AE309590087045E /* FactoryPatternPractice */ = {
 			isa = PBXGroup;
 			children = (
+				EE50BE1C1AE74B4A0087045E /* Rectangle.h */,
+				EE50BE1D1AE74B4A0087045E /* Rectangle.m */,
 				EE50BD8C1AE446720087045E /* Main.storyboard */,
 				EE50BCCA1AE309590087045E /* AppDelegate.h */,
 				EE50BCCB1AE309590087045E /* AppDelegate.m */,
@@ -221,8 +223,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE50BD8E1AE446720087045E /* Main.storyboard in Resources */,
-				EE50BCD71AE309590087045E /* LaunchScreen.xib in Resources */,
 				EE50BCD41AE309590087045E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,9 +244,9 @@
 				EE50BCCC1AE309590087045E /* AppDelegate.m in Sources */,
 				EE50BD831AE32CDB0087045E /* Circle.m in Sources */,
 				EE50BCC91AE309590087045E /* main.m in Sources */,
+				EE50BE1E1AE74B4A0087045E /* Rectangle.m in Sources */,
 				EE50BD3F1AE323EB0087045E /* ViewController.m in Sources */,
 				EE50BD391AE31F490087045E /* ResultViewController.m in Sources */,
-				EE50BD7D1AE32C4D0087045E /* Rectangle.m in Sources */,
 				EE50BD801AE32CA10087045E /* Traingle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
