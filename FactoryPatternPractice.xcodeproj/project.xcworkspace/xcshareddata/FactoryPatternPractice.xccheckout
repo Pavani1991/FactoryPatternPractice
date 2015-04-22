@@ -10,14 +10,14 @@
 	<string>FactoryPatternPractice</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1B81D23E7383ECCC1402BAA144FC777167C1FFF2</key>
+		<key>3E907307FAB89FBC1EB4FA079653C65BB0ABF3C9</key>
 		<string>https://github.com/Pavani1991/FactoryPatternPractice.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>FactoryPatternPractice.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1B81D23E7383ECCC1402BAA144FC777167C1FFF2</key>
+		<key>3E907307FAB89FBC1EB4FA079653C65BB0ABF3C9</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1B81D23E7383ECCC1402BAA144FC777167C1FFF2</string>
+	<string>3E907307FAB89FBC1EB4FA079653C65BB0ABF3C9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1B81D23E7383ECCC1402BAA144FC777167C1FFF2</string>
+			<string>3E907307FAB89FBC1EB4FA079653C65BB0ABF3C9</string>
 			<key>IDESourceControlWCCName</key>
 			<string>FactoryPatternPractice</string>
 		</dict>
